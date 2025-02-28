@@ -1,0 +1,38 @@
+[
+    {
+        "Project_Name": "Tic Tac Toe",
+        "Date_Completed" : "December 01, 2021",
+        "Language": "Python",
+        "Secondary_Language": "N/A",
+        "Special_Features": [
+            "Multiplayer",
+            "5 different levels of difficulty",
+            "Instruction Manual",
+            "Colored titles and Menus (if ran with a compatible terminal)"
+        ],
+        "Snap_Shots": [
+            ["images/TicTacToe/snapshot1.png","Main Menu"],
+            ["images/TicTacToe/snapshot2_PvC_Impossible.png","Player vs Computer"],
+            ["images/TicTacToe/snapshot3_GamePlay_Impossible.png","Gameplay - Impossible Game Board"]
+        ],
+        "Description": "A simple Tic Tac Toe game that can be played against a computer or another player. The computer has 5 different levels of difficulty, ranging from easy to impossible. The game is played in the terminal and has colored titles and menus if ran with a compatible terminal."
+        
+    },
+    {
+        "Project_Name": "Cookie Clicker",
+        "Date_Completed" : "March 4, 2024",
+        "Language": "Java",
+        "Secondary_Language": "N/A",
+        "Special_Features": [
+            "Stats window",
+            "9 Unique Upgrades",
+            "9 Different Purchasable Buildings",
+            "Basic Graphics"
+        ],
+        "Snap_Shots": [
+            ["images/Cookie Clicker/snapshot1_GameWindow.png",""],
+            ["images/Cookie Clicker/snapshot2_GamePlay.png",""]
+        ],
+        "Description": "A remake of the cookie clicker game that allows the player to click on a cookie to bake cookies. The player can purchase buildings and upgrades to increase the amount of cookies they gain per click. The game has a stats window that displays the player's current stats and a basic graphics window that displays the game."
+    }
+]

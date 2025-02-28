@@ -1,0 +1,156 @@
+/*
+    Author............ : Nathan Sikkema
+    Student Number.... : 000911571
+    Program........... : Software Development
+    Course............ : Software Development Tools
+    Type.............. : CSS
+    Start Date........ : 2025 Feb 28
+    End Date.......... : 
+    Duration.......... : 
+    Last Modified..... : 
+    Validation Date... : 
+*/
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2f2a3a;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: red;
+    transition: 0.2s ease;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2f2a3a;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+/* Project Thumbnails */
+.project-link {
+    color: #fff;
+    text-align: center;
+}
+
+.project-link img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-link h4 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 50px 0;
+}
+#projects h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+.project-card {
+    text-align: center;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        background-color: #fff;
+    }
+}
+
+
+
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/* Style for portfolio items */
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Container for image */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cover Image */
+.cover-image {
+    
+    display: block;
+}
+
+/* Title & Price styling */
+.title-price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Black background with 50% opacity */
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+    line-height: 1;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers both horizontally & vertically */
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
