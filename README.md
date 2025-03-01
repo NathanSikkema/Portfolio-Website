@@ -1,5 +1,8 @@
 # Assignment 6: Portfolio Website
 
+## GitHub pages: 
+[My Portfolio](https://nathansikkema.github.io/Portfolio-Website/)
+
 This website includes the following information about me:
  - Summarizing Statement
  - Education
