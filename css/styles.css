@@ -13,7 +13,12 @@
     background-color: #2f2a3a;
     color: #fff;
 }
-
+#education,
+#skills, 
+#projects,
+#resume {
+    padding-top: 95px;
+}
 h2 {
     color: #fff;
     font-weight: bold;
@@ -40,12 +45,23 @@ a:hover {
 .navbar-nav .nav-link {
     color: #fff !important;
 }
+.navbar-brand {
+    font-size: 50px;
+}
+#navbarNav a {
+    font-size: 20px;
+}
+#navbarNav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
 
 /* About Me Section */
-#summarizing-statement {
+#about-me {
     padding-top: 170px;
 }
-#summarizing-statement p {
+#about-me p {
     max-width: 500px;
     margin-left: 20px;
 }
@@ -79,7 +95,7 @@ a:hover {
     justify-content: space-around;
 }
 
-.skills-container h3 {
+#education-skills-container h3 {
     font-size: 20px;
 }
 .skills-container {
@@ -113,11 +129,11 @@ a:hover {
 }
 
 /* Section Padding */
-.section-padding {
-    padding: 50px 0;
-}
 
-#projects h1 {
+
+#projects h1,
+#resume h1,
+#about-me h1 {
     text-align: center;
     margin-bottom: 25px;
     text-decoration: underline;
@@ -193,6 +209,10 @@ a:hover {
     height: auto;
 }
 
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
 /* Social Links */
 .social-links {
     display: flex;
