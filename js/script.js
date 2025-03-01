@@ -61,7 +61,7 @@ function createprojectElement(title, images, date) {
     if (images.length > 1) {
         const overlay = document.createElement('div');
         overlay.classList.add('image-overlay');
-        overlay.style.opacity = '0.8';
+        overlay.style.opacity = '0.6';
         overlay.innerHTML = `+${images.length - 1}`;
         imageContainer.appendChild(overlay);
         coverImage.style.cursor = 'pointer';
@@ -73,9 +73,14 @@ function createprojectElement(title, images, date) {
         });
 
         imageContainer.addEventListener('mouseout', () => {
-            overlay.style.opacity = '0.8';
+            overlay.style.opacity = '0.6';
         });
     }
+    imageContainer.addEventListener('click', () => {
+        // Open a new page with the project details
+        const titleFormatted = title.replaceAll(" ", "_");
+        window.open(`./projectPage.html?project=${titleFormatted}`, '_blank');
+    });
     return projectElement;
 }
 
