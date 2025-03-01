@@ -179,6 +179,12 @@ a:hover {
  5. Projects Section
 
 ------------------ */
+#projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 #projects h1,
 #resume h1,
 #about-me h1 {
