@@ -3,12 +3,15 @@ body {
     background-color: #2f2a3a;
     color: #fff;
 }
+
 h1, h4 {
     font-weight: bold;
 }
+
 h1 {
     font-size: 60px;
 }
+
 h4 {
     font-size: 40px;
     margin-top: 20px;
@@ -27,9 +30,35 @@ p {
 #gallery {
     margin-top: 20px;
 }
+
+.gallery-item {
+    position: relative; /* Necessary for absolute positioning of the title */
+    margin-bottom: 20px;
+}
+
+.image-title {
+    position: absolute;
+    top: -10px; /* Move the title above the image */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the title horizontally */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+}
+
 #gallery img {
     border: white solid 1px;
+    display: block; /* Ensure image takes up full width within the column */
+    width: 100%;
+    height: auto;
+    margin-top: 50px; /* Add space between the title and the image */
 }
+
 #git-link {
     font-size: 35px;
     font-weight: bold;

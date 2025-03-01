@@ -40,5 +40,33 @@
         ],
         "Description": "A remake of the cookie clicker game that allows the player to click on a cookie to bake cookies. The player can purchase buildings and upgrades to increase the amount of cookies they gain per click. The game has a stats window that displays the player's current stats and a basic graphics window that displays the game.",
         "Git_Link": "https://github.com/NathanSikkema/Cookie-Clicker"
+    },
+    {
+        "Project_Name": "Box Game",
+        "Date_Completed" : "In Progress",
+        "Language": "Java",
+        "Secondary_Language": "N/A",
+        "Special_Features": [
+            "Multiple Menu Screens",
+            "Increased Difficulty as the game progresses",
+            "Help Menu",
+            "In-game statistics display",
+            "variety of different enemies",
+            "Coins and Health pickups",
+            "High Score Records"
+        ],
+        "Snap_Shots": [
+            ["images/Box Game/snapshot1_Main_Menu.png","Main Menu"],
+            ["images/Box Game/snapshot2_Help_Menu.png","Help Menu"],
+            ["images/Box Game/snapshot3_in-game_statistics.png","In-Game Statistics"],
+            ["images/Box Game/snapshot4_Leaderboard.png","Leaderboard"],
+            ["images/Box Game/snapshot5_Basic_enemy.png","Basic Enemy"],
+            ["images/Box Game/snapshot6_Fast_enemy.png","Fast Enemy"],
+            ["images/Box Game/snapshot7_Trailing_enemy.png","Trailing Enemy"],
+            ["images/Box Game/snapshot8_Heart.png","Heart Pickup"],
+            ["images/Box Game/snapshot9_coin.png","Coin Pickup"]
+        ],
+        "Description": "",
+        "Git_Link": ""
     }
 ]
