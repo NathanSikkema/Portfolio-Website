@@ -42,6 +42,9 @@ a:hover {
 }
 
 /* About Me Section */
+#summarizing-statement {
+    padding-top: 170px;
+}
 #summarizing-statement p {
     max-width: 500px;
     margin-left: 20px;
@@ -72,6 +75,30 @@ a:hover {
     height: auto;
 }
 
+#education-skills-container .container {
+    justify-content: space-around;
+}
+
+.skills-container h3 {
+    font-size: 20px;
+}
+.skills-container {
+    margin-left: 20px;
+}
+.skills-container .sub-title {
+    margin-left: -20px;
+}
+
+.skills-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    width: fit-content;
+}
+.skills-container ul li {
+    width: fit-content;
+}
+
 /* Buttons */
 .btn-danger {
     background-color: red;
@@ -88,7 +115,6 @@ a:hover {
 /* Section Padding */
 .section-padding {
     padding: 50px 0;
-    padding-top: 170px;
 }
 
 #projects h1 {
