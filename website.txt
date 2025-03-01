@@ -2,4 +2,4 @@ Repository:
  - https://github.com/NathanSikkema/Portfolio-Website
 
 GitHub Pages Link:
- - https://nathansikkema.github.io/Portfolio-Website/#about-me
+ - https://nathansikkema.github.io/Portfolio-Website/
