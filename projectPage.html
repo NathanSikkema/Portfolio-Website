@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Details</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/projectPage.css">
-</head>
-<body>
-    <div class="container mt-5">
-        <h1 id="project-name" class="text-center"></h1>
-        <p id="date-completed" class="text-center"></p>
-        <h4>Description:</h4>
-        <p id="description"></p>
-        
-        <div class="row">
-            <div class="col-md-6">
-                <h4>Language:</h4>
-                <p id="primary-language"></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+            Author............ : Nathan Sikkema
+            Student Number.... : 000911571
+            Program........... : Software Development
+            Course............ : Software Development Tools
+            Type.............. : HTML
+            Start Date........ : 2025 Feb 28
+            End Date.......... : 2025 Feb 29
+            Duration.......... : 2 Days
+            Last Modified..... : 2025 Feb 29
+            
+            I, Nathan Sikkema 000911571, certify that this work is my own work and that I did not consult external
+            resources without due acknowledgement.
+            
+            I further certify that I did not provide my solution to any other students, nor will I provide it to future
+            students taking this course at a later date.
+            -->
+        <title>Project Details</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/projectPage.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 id="project-name" class="text-center"></h1>
+            <p id="date-completed" class="text-center"></p>
+            <h4>Description:</h4>
+            <p id="description"></p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Language:</h4>
+                    <p id="primary-language"></p>
+                </div>
+                <div id="secondary-language-container" class="col-md-6">
+                    <h4>Secondary Language:</h4>
+                    <p id="secondary-language"></p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Github Repository:</h4>
+                    <p id="git-link"></p>
+                </div>
             </div>
-            <div id="secondary-language-container" class="col-md-6">
-                <h4>Secondary Language:</h4>
-                <p id="secondary-language"></p>
-            </div>
-            <div class="col-md-6">
-                <h4>Github Repository:</h4>
-                <p id="git-link"></p>
-            </div>
-        </div>
-        <h4>Snapshots:</h4>
-        <div id="gallery" class="row g-3"></div>
-        <h4>Special Features:</h4>
-        <ul id="special-features"></ul>
+            <h4>Snapshots:</h4>
+            <div id="gallery" class="row g-3"></div>
+            <h4>Special Features:</h4>
+            <ul id="special-features"></ul>
 
-    </div>
-    
-    <script src="js/projectPage.js"></script>
-</body>
+        </div>
+        
+        <script src="js/projectPage.js"></script>
+    </body>
 </html>

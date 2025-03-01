@@ -5,20 +5,43 @@
     Course............ : Software Development Tools
     Type.............. : CSS
     Start Date........ : 2025 Feb 28
+    End Date.......... : 2025 Mar 29
+    Duration.......... : 2 Days
+    I, Nathan Sikkema 000911571, certify that this work is my own work and that I did not consult external
+    resources without due acknowledgement.
+    
+    I further certify that I did not provide my solution to any other students, nor will I provide it to future
+    students taking this course at a later date.
 */
 
- /* General Styles */
- body {
+/*----------------------------
+
+  Table of Contents
+
+ 1. General Styles
+ 2. Navbar Styles
+ 3. About Me Section
+ 4. Education & Skills Section
+ 5. Projects Section
+ 6. Portfolio Section
+ 7. Resume Section
+ 8. Contact Section
+ 9. Social Links
+ 10. Media Queries
+
+----------------------------*/
+
+/*-----------------
+
+ 1. General Styles
+
+---------------- */
+body {
     font-family: 'Arial', sans-serif;
     background-color: #2f2a3a;
     color: #fff;
 }
-#education,
-#skills, 
-#projects,
-#resume {
-    padding-top: 95px;
-}
+
 h2 {
     color: #fff;
     font-weight: bold;
@@ -37,7 +60,23 @@ a:hover {
     transition: 1s ease;
 }
 
-/* Navbar */
+.btn-danger {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+/*-----------------
+
+ 2. Navbar Styles
+
+---------------- */
 .navbar {
     background-color: #2f2a3a;
 }
@@ -45,29 +84,34 @@ a:hover {
 .navbar-nav .nav-link {
     color: #fff !important;
 }
+
 .navbar-brand {
     font-size: 50px;
 }
+
 #navbarNav a {
     font-size: 20px;
 }
+
 #navbarNav ul {
     display: flex;
     justify-content: space-between;
     width: 75%;
 }
 
-/* About Me Section */
+/* ------------------
+
+ 3. About Me Section
+
+------------------ */
 #about-me {
     padding-top: 170px;
+    border-left: solid white 2px;
 }
+
 #about-me p {
     max-width: 500px;
     margin-left: 20px;
-}
-
-#about-me {
-    border-left: solid white 2px;
 }
 
 #about-me-container {
@@ -91,10 +135,16 @@ a:hover {
     height: auto;
 }
 
-#projects-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* ----------------------------
+
+ 4. Education & Skills Section
+
+---------------------------- */
+#education,
+#skills, 
+#projects,
+#resume {
+    padding-top: 95px;
 }
 
 #education-skills-container .container {
@@ -104,9 +154,11 @@ a:hover {
 #education-skills-container h3 {
     font-size: 20px;
 }
+
 .skills-container {
     margin-left: 20px;
 }
+
 .skills-container .sub-title {
     margin-left: -20px;
 }
@@ -117,26 +169,16 @@ a:hover {
     column-gap: 50px;
     width: fit-content;
 }
+
 .skills-container ul li {
     width: fit-content;
 }
 
-/* Buttons */
-.btn-danger {
-    background-color: red;
-    border: none;
-    padding: 10px 20px;
-    color: #fff;
-    font-weight: bold;
-}
+/* ------------------
 
-.btn-danger:hover {
-    background-color: darkred;
-}
+ 5. Projects Section
 
-/* Section Padding */
-
-
+------------------ */
 #projects h1,
 #resume h1,
 #about-me h1 {
@@ -149,7 +191,11 @@ a:hover {
     text-align: center;
 }
 
-/* Portfolio Grid */
+/* -------------------
+
+ 6. Portfolio Section
+
+------------------- */
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
@@ -166,19 +212,16 @@ a:hover {
     border-radius: 10px;
 }
 
-/* Container for portfolio item image */
 .image-container {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-/* Image Cover */
 .cover-image {
     display: block;
 }
 
-/* Title & Price styling for portfolio items */
 .title-price {
     position: absolute;
     bottom: 0;
@@ -190,11 +233,12 @@ a:hover {
     font-size: 16px;
     padding: 20px 0;
 }
+
 .image-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centers both horizontally & vertically */
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 70px;
     font-weight: bold;
@@ -202,7 +246,12 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
 }
-/* Resume Container */
+
+/* ----------------
+
+ 7. Resume Section
+
+---------------- */
 .resume-container {
     display: flex;
     justify-content: center;
@@ -215,11 +264,21 @@ a:hover {
     height: auto;
 }
 
+/* -----------------
+
+ 8. Contact Section
+
+----------------- */
 #contact {
     padding: 50px 0;
     text-align: center;
 }
-/* Social Links */
+
+/* ---------------
+
+ 9. Social Links
+
+--------------- */
 .social-links {
     display: flex;
     justify-content: center;
@@ -242,7 +301,11 @@ a:hover {
     font-size: 16px;
 }
 
-/* Responsive */
+/* ----------------
+
+ 10. Media Queries
+
+---------------- */
 @media (max-width: 768px) {
     .navbar-toggler {
         background-color: #fff;

@@ -66,7 +66,7 @@
             ["images/Box Game/snapshot8_Heart.png","Heart Pickup"],
             ["images/Box Game/snapshot9_coin.png","Coin Pickup"]
         ],
-        "Description": "",
-        "Git_Link": ""
+        "Description": "A simple game where the player controls a box that must avoid enemies and collect coins. The game has multiple menu screens, increased difficulty as the game progresses, a help menu, in-game statistics display, a variety of different enemies, coins and health pickups, and high score records.",
+        "Git_Link": "https://github.com/NathanSikkema/Box-Game"
     }
 ]

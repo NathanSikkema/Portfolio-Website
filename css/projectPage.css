@@ -1,8 +1,47 @@
+/*
+    Author............ : Nathan Sikkema
+    Student Number.... : 000911571
+    Program........... : Software Development
+    Course............ : Software Development Tools
+    Type.............. : CSS
+    Start Date........ : 2025 Feb 28
+    End Date.......... : 2025 Mar 29
+    Duration.......... : 2 Days
+    I, Nathan Sikkema 000911571, certify that this work is my own work and that I did not consult external
+    resources without due acknowledgement.
+    
+    I further certify that I did not provide my solution to any other students, nor will I provide it to future
+    students taking this course at a later date.
+*/
+
+/*-----------------
+
+  Table of Contents
+
+ 1. General Styles
+ 2. Heading Styles
+ 3. Git Link Styles
+ 4. Other
+
+----------------*/
+
+/*-----------------
+
+ 1. General Styles
+
+----------------*/
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #2f2a3a;
     color: #fff;
 }
+
+/*-----------------
+
+ 2. Heading Styles
+
+----------------*/
 
 h1, h4 {
     font-weight: bold;
@@ -19,29 +58,28 @@ h4 {
     text-decoration: underline;
 }
 
-p {
-    font-size: 25px;
-}
 
-.row {
-    border: white solid 2px;
-}
+/*-----------------
+
+ 3. Gallery Styles
+
+----------------*/
 
 #gallery {
     margin-top: 20px;
 }
 
 .gallery-item {
-    position: relative; /* Necessary for absolute positioning of the title */
+    position: relative;
     margin-bottom: 20px;
 }
 
 .image-title {
     position: absolute;
-    top: -10px; /* Move the title above the image */
+    top: -10px; 
     left: 50%;
-    transform: translateX(-50%); /* Centers the title horizontally */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 1.5rem;
     width: 70%;
@@ -53,10 +91,33 @@ p {
 
 #gallery img {
     border: white solid 1px;
-    display: block; /* Ensure image takes up full width within the column */
+    display: block;
     width: 100%;
     height: auto;
-    margin-top: 50px; /* Add space between the title and the image */
+    margin-top: 50px;
+}
+
+/*--------
+
+ 4. Other
+
+--------*/
+
+p {
+    font-size: 25px;
+}
+#special-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    width: fit-content;
+}
+#special-features li {
+    font-size: 25px;
+}
+
+.row {
+    border: white solid 2px;
 }
 
 #git-link {

@@ -2,12 +2,17 @@
 // Student Number.... : 000911571
 // Program........... : Software Development
 // Course............ : Software Development Tools
-// Type.............. : JS
+// Type.............. : JavaScript
 // Start Date........ : 2025 Feb 28
-// End Date.......... : 
-// Duration.......... : 
-// Last Modified..... : 
-// Validation Date... : 
+// End Date.......... : 2025 Feb 29
+// Duration.......... : 2 Days
+// Last Modified..... : 2025 Feb 29
+
+// I, Nathan Sikkema 000911571, certify that this work is my own work and that I did not consult external
+// resources without due acknowledgement.
+
+// I further certify that I did not provide my solution to any other students, nor will I provide it to future
+// students taking this course at a later date.
 
 // Toggle Sidebar in Mobile View (Bootstrap handles the collapse for navbar items)
 document.querySelector('.navbar-toggler').addEventListener('click', function() {
